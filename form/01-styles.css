@@ -832,8 +832,6 @@ ul.row {
 .tag-list li:last-child::after {
     content: "";
 }
-
-/*** FORM ***/
 /* Comment section
     ============================= */
 .post-comments {
@@ -854,42 +852,3 @@ form {
     padding: 1rem 0;
     margin: 0;
 }
-
-/* .new-comment-section {
-    margin-top: 5rem;
-}
-
-.new-comment-section .section-title {
-    font-size: var(--font-size-large);
-    font-weight: var(--font-weight-bold);
-    margin-bottom: 2rem;
-    color: var(--color-primary);
-}
-.new-comment-section .comment-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.new-comment-section .comment-form label {
-    margin-bottom: 1rem;
-}
-
-.new-comment-section .comment-form input,
-.new-comment-section .comment-form textarea {
-    padding: 1rem;
-    border: 0.1rem solid var(--color-grey);
-    margin-bottom: 2rem;
-}
-.new-comment-section .comment-form button {
-    padding: 1rem 2rem;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border: none;
-    cursor: pointer;
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-bold);
-}
-
-.new-comment-section .comment-form button:hover {
-    background-color: var(--color-dark-grey);
-} */
