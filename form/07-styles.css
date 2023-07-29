@@ -1009,14 +1009,15 @@ textarea:valid:not(:placeholder-shown) {
 }
 
 /*** SEARCH FORM ***/
-/* Form search */
+
+/* Target the form-search class */
 .form-search {
     display: block;
     padding: 0.5rem 0;
     position: relative;
 }
 
-/* Search button */
+/* Target the search-button class inside the form-search class */
 .form-search .search-button {
     display: inline-block;
     background: transparent;
@@ -1025,14 +1026,14 @@ textarea:valid:not(:placeholder-shown) {
     padding: 0;
 }
 
-/* Search icon inside the button */
-.form-search .search-button .search-icon {
+/* Target the search-icon class inside the search-button class */
+.search-button .search-icon {
     fill: var(--color-white);
     width: 1.5rem;
     height: 1.5rem;
 }
 
-/* Input type search */
+/* Target the input type search inside the form-search class */
 .form-search input[type="search"] {
     display: inline-block;
     color: var(--color-white);
@@ -1049,12 +1050,12 @@ textarea:valid:not(:placeholder-shown) {
     transition: width .4s cubic-bezier(0, 0.795, 0, 1);
 }
 
-/* Focus state of input type search */
+/* Target the focus state of input type search inside the form-search class */
 .form-search input[type="search"]:focus {
     position: relative;
     width: 15rem;
     z-index: 1;
-    border-bottom: 0.1rem solid var(--color-grey);
+    border-bottom: .1rem solid var(--color-grey);
     padding: 0;
     cursor: text;
     margin: 0 1rem;
